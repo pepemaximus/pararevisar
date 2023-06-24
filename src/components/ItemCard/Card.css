@@ -1,0 +1,31 @@
+.card {
+    padding: 2%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10%;
+    flex-direction: column;
+    margin: 0.5 rem;
+    height: fit-content;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1 rem 1 rem 0 0;
+}
+
+.card-title, .card-text {
+    margin: 5%;
+}
+
+.card-btn {
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+    padding: 0.5 rem 1 rem;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+}
